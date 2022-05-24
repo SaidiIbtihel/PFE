@@ -1,0 +1,19 @@
+ /* footer */
+ .Footer {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    position: fixed;
+    bottom: -20px ;
+    width:100%;
+    background-color: none;
+      }
+      .fa {
+      padding: 15px; 
+      font-size: 25px;
+      width: 85px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 100%; 
+      }
+  

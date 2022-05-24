@@ -1,0 +1,23 @@
+.columnFB {
+    float: left;
+    width: 4,22%;
+    margin-bottom: 16px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 0 70px;
+  }
+  
+  
+  
+  .cardFB {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    size: 20%;
+  }
+  
+ 
+  h2{
+      text-align: center;
+      font-family:cursive;
+   }
+ 
+ 

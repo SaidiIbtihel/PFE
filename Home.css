@@ -1,0 +1,180 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+  
+  /* chercher */
+  
+  .chercher {
+    display :flex;
+   }
+   
+   
+     form {
+       display:flex;
+       width: 600px;
+       margin: 80px;
+       margin-top: 35px;
+       margin-left: 10px;
+     }
+     input {
+       padding: 10px 2px;
+       border: 10px;
+       font-size: 18px;
+       margin:auto;
+        
+     }
+     .search {
+       width: 500px;
+       border-radius: 10px 0 0 10px;
+       
+     }
+     .submit {
+       width: 200px;
+       background-color: rgb(180, 107, 107);
+       color: #ffffff;
+       margin:auto;
+       border-radius:  0 10px 10px     0; 
+       margin-top: 1%;
+       margin-left: 1%;
+     }
+  
+     .fa {
+      padding: 15px; 
+      font-size: 25px;
+      width: 85px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 100%; 
+      }
+  
+  
+  
+  /* Page d'accueil */
+    /* les paragraphes */
+      .p{
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+        margin-left: 60px;
+        margin-right: 60px;
+      
+      }
+  
+      .p1{
+        text-align: center;
+        color: rgb(104, 11, 61);
+      }
+      
+/* main{
+  background-image: url("ccc.webp");
+} */
+  
+  
+  /* l'image de la page d'accueil  */
+  .p img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 50px;
+  }
+  .pp {
+    position: relative;
+    font-family: Arial;
+  
+  }
+  .pp img{
+   display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0%;
+    
+  }
+  
+  
+     
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  
+ 
+  
+  
+  
+  .text-block {
+    position: absolute;
+    bottom: 600px;
+    left:850px;
+    background-color: white;
+    color: black;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 30px;
+    font-family:cursive;
+  }
+  .decouvrir{
+    font-size: 14px;
+  }
+  .navigation{
+    background: rgb(180,107,107);
+    height: 45px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.2rem calc((100vw - 1000px) / 2);
+    z-index: 12;
+  }
+  .nav-active{
+font-size: 18px;
+color: aqua;
+  }
+  .navigation a{
+    text-decoration: none;
+    color: black;
+  }

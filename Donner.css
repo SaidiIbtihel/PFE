@@ -1,0 +1,104 @@
+
+ 
+  #vtmnt{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  
+  
+  
+  .infoCD {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-left:250px;
+    margin-right:350px;
+    text-align:center;
+  }
+  
+  .infoAD {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-left:250px;
+    margin-right:350px;
+    text-align:center;
+  }
+  .photoD {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-left:250px;
+    margin-right:350px;
+    text-align:center;
+  }
+  .prixD{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-left:250px;
+    margin-right:350px;
+    text-align:center;
+  }
+  #env{
+    background-color: rgb(180, 107, 107);
+    color: white;
+    padding: 12px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 50%;
+  }
+  #env:hover {
+    background-color: rgb(159, 153, 153);
+  }
+  .colD-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .colD-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .rowD:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .text-block-donne {
+    position: absolute;
+    bottom: 480px;
+    right:690px;
+    background-color: transparent;
+    color: black;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 30px;
+    font-family:cursive;
+  }
+  #don{
+    display: block;
+    margin-left: 300px;
+    width: 50%;
+    padding: 5px;
+    padding-bottom: 50px;
+    
+  }
+  .donne{
+    margin-top: 60px;
+  }
